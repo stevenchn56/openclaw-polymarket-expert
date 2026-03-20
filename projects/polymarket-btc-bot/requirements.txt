@@ -1,0 +1,26 @@
+# Polymarket BTC 5 分钟窗口做市机器人依赖
+
+## Core Trading Libraries
+web3>=6.0.0           # Ethereum/Wallet management
+ccxt>=4.3.0          # Binance WebSocket + REST API
+websockets>=12.0     # WebSocket client for real-time prices
+asyncio                # Async I/O for low-latency operations
+
+## Risk Management
+numpy>=1.24.0        # Numerical calculations for strategy metrics
+pandas>=2.0.0        # Time series analysis and historical backtesting
+
+## Configuration & Logging
+python-dotenv>=1.0.0 # Environment variable loading
+PyYAML>=6.0.0        # YAML config parser
+structlog>=23.1.0    # Structured logging
+
+## Testing & Development
+pytest>=7.4.0        # Unit testing framework
+pytest-asyncio>=0.21.0  # Async test support
+black>=23.7.0        # Code formatting
+mypy>=1.5.0          # Type checking
+
+## Monitoring
+prometheus-client>=0.17.0  # Metrics export
+requests>=2.31.0   # Health checks

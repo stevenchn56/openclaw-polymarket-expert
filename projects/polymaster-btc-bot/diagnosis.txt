@@ -1,0 +1,33 @@
+============================================================
+STRATEGY DIAGNOSIS
+============================================================
+✅ Strategy loaded
+
+=== ATTRIBUTES ===
+calculate_entry_windows: method = <bound method BTCWindowStrategy.calculate_entry_windows of <
+calculate_position_size: method = <bound method BTCWindowStrategy.calculate_position_size of <
+calculate_volatility: method = <bound method BTCWindowStrategy.calculate_volatility of <str
+can_trade: method = <bound method BTCWindowStrategy.can_trade of <strategies.btc
+current_quote: NoneType = None
+enable_black_scholes: bool = True
+get_strategy_metrics: method = <bound method BTCWindowStrategy.get_strategy_metrics of <str
+inventory_threshold: Decimal = Decimal('0.5')
+last_price: NoneType = None
+lookback_minutes: int = 5
+max_position_size: Decimal = Decimal('100')
+price_history: list = []
+pricer: BlackScholesPricer = <pricing.black_scholes_v2.BlackScholesPricer object at 0x104
+quote_timestamp: NoneType = None
+reset: method = <bound method BTCWindowStrategy.reset of <strategies.btc_win
+should_trade: method = <bound method BTCWindowStrategy.should_trade of <strategies.
+spread_bps: int = 10
+update_price: method = <bound method BTCWindowStrategy.update_price of <strategies.
+update_price_with_quotation: method = <bound method BTCWindowStrategy.update_price_with_quotation 
+
+=== UPDATE TEST ===
+update_price returned: None
+
+=== QUOTE METHODS ===
+get_latest_quote: NOT FOUND
+current_quote: ERROR → 'NoneType' object is not callable
+generate_bidirectional_quote: NOT FOUND

@@ -1,0 +1,16 @@
+============================================================
+V2.0 BIDIRECTIONAL QUOTE DIAGNOSIS
+============================================================
+
+✅ Strategy initialized
+   spread_bps: 10
+   pricer type: BlackScholesPricer
+✓ Updated with $45,000.00
+✓ Updated with $45,100.00
+✓ Updated with $45,050.00
+
+current_quote: None
+generate_bidirectional_quote exists: False
+
+============================================================
+❌ MISSING: generate_bidirectional_quote() method!

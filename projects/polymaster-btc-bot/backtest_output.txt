@@ -1,0 +1,31 @@
+/opt/homebrew/lib/python3.14/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/opt/homebrew/lib/python3.14/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+======================================================================
+🧪 ENHANCED BACKTEST SUITE - ALL SCENARIOS
+======================================================================
+
+======================================================================
+📈 SCENARIO: Normal Volatility (Random Walk)
+======================================================================
+
+📊 Statistics (over 50 runs):
+   Executions Triggered: 0/50 (0.0%)
+   UP Signals: 0 (0.0%)
+   DOWN Signals: 0 (0.0%)
+   NEUTRAL Signals: 0 (0.0%)
+   Average Confidence: nan%
+
+📋 Sample Predictions:
+Traceback (most recent call last):
+  File "/Users/stevenwang/.openclaw/workspace/projects/polymaster-btc-bot/backtest_enhanced.py", line 298, in <module>
+    compare_all_scenarios()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/stevenwang/.openclaw/workspace/projects/polymaster-btc-bot/backtest_enhanced.py", line 230, in compare_all_scenarios
+    results = run_scenario_test(name, candles, num_runs=50)
+  File "/Users/stevenwang/.openclaw/workspace/projects/polymaster-btc-bot/backtest_enhanced.py", line 194, in run_scenario_test
+    direction_char = "⬆️" if result['direction'] == 'UP' else ("⬇️" if result['direction'] == 'DOWN' else "➡️")
+                             ~~~~~~^^^^^^^^^^^^^
+KeyError: 'direction'

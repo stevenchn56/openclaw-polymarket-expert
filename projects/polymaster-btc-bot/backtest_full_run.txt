@@ -1,0 +1,117 @@
+======================================================================
+  POLYMARKET BTC BOT - BACKTEST V2.1
+  Enhanced with Bidirectional Quote Support
+======================================================================
+
+🔧 Running Multiple Scenarios...
+----------------------------------------------------------------------
+
+======================================================================
+📈 SCENARIO: NORMAL VOLATILITY (50 runs)
+======================================================================
+  Progress: 1/50 - P&L: +14.58% | Trades: 9
+  Progress: 11/50 - P&L: -1.68% | Trades: 9
+  Progress: 21/50 - P&L: +1.52% | Trades: 9
+  Progress: 31/50 - P&L: -2.14% | Trades: 9
+  Progress: 41/50 - P&L: -2.42% | Trades: 9
+
+──────────────────────────────────────────────────────────────────────
+📊 RESULTS SUMMARY:
+──────────────────────────────────────────────────────────────────────
+  Runs Complete:    50/50
+  Avg Final P&L:    +0.22%
+  Avg Win Rate:     53.3%
+  Avg Trades:       9.0
+  Quotes Generated: 97/candle
+
+  Best Result:      +22.09% (9 trades)
+  Worst Result:     -10.73% (9 trades)
+
+======================================================================
+📈 SCENARIO: HIGH VOLATILITY (50 runs)
+======================================================================
+  Progress: 1/50 - P&L: -4.80% | Trades: 9
+  Progress: 11/50 - P&L: +7.35% | Trades: 9
+  Progress: 21/50 - P&L: -4.54% | Trades: 9
+  Progress: 31/50 - P&L: -7.88% | Trades: 9
+  Progress: 41/50 - P&L: -6.96% | Trades: 9
+
+──────────────────────────────────────────────────────────────────────
+📊 RESULTS SUMMARY:
+──────────────────────────────────────────────────────────────────────
+  Runs Complete:    50/50
+  Avg Final P&L:    -0.65%
+  Avg Win Rate:     45.6%
+  Avg Trades:       9.0
+  Quotes Generated: 97/candle
+
+  Best Result:      +14.05% (9 trades)
+  Worst Result:     -13.05% (9 trades)
+
+======================================================================
+📈 SCENARIO: BULL MARKET (50 runs)
+======================================================================
+  Progress: 1/50 - P&L: -1.90% | Trades: 9
+  Progress: 11/50 - P&L: +7.27% | Trades: 9
+  Progress: 21/50 - P&L: -8.05% | Trades: 9
+  Progress: 31/50 - P&L: +0.72% | Trades: 9
+  Progress: 41/50 - P&L: +14.20% | Trades: 9
+
+──────────────────────────────────────────────────────────────────────
+📊 RESULTS SUMMARY:
+──────────────────────────────────────────────────────────────────────
+  Runs Complete:    50/50
+  Avg Final P&L:    +1.29%
+  Avg Win Rate:     51.3%
+  Avg Trades:       9.0
+  Quotes Generated: 97/candle
+
+  Best Result:      +16.64% (9 trades)
+  Worst Result:     -10.26% (9 trades)
+
+======================================================================
+📈 SCENARIO: BEAR MARKET (50 runs)
+======================================================================
+  Progress: 1/50 - P&L: +2.15% | Trades: 9
+  Progress: 11/50 - P&L: +0.97% | Trades: 9
+  Progress: 21/50 - P&L: -3.26% | Trades: 9
+  Progress: 31/50 - P&L: -8.01% | Trades: 9
+  Progress: 41/50 - P&L: +5.62% | Trades: 9
+
+──────────────────────────────────────────────────────────────────────
+📊 RESULTS SUMMARY:
+──────────────────────────────────────────────────────────────────────
+  Runs Complete:    50/50
+  Avg Final P&L:    +0.75%
+  Avg Win Rate:     50.7%
+  Avg Trades:       9.0
+  Quotes Generated: 97/candle
+
+  Best Result:      +10.68% (9 trades)
+  Worst Result:     -9.25% (9 trades)
+
+======================================================================
+  🎯 COMPREHENSIVE BACKTEST COMPLETE!
+======================================================================
+
+📈 Scenario Comparison:
+  • Normal Volatility        : +0.22% (mean)
+  • High Volatility          : -0.65% (mean)
+  • Bull Market              : +1.29% (mean)
+  • Bear Market              : +0.75% (mean)
+
+✅ Key Achievements:
+  • Loaded BTCWindowStrategy successfully
+  • Tested 200 total simulations
+  • Used bidirectional quotes (v2.0)
+  • Validated spread accuracy across scenarios
+
+💡 Next Steps:
+  1. Review detailed results per scenario
+  2. Analyze risk-adjusted returns
+  3. Optimize spread parameter by volatility regime
+  4. Prepare for VPS deployment
+
+======================================================================
+  ✅ ALL TESTS COMPLETED
+======================================================================
