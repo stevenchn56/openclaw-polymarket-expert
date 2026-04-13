@@ -44,7 +44,7 @@
 - **多智能体部署**：$2,000+ (OpenClaw+NemoClaw+Mission Control)
 
 ## 🔗 链接
-- **GitHub**: https://github.com/stevenchn56
+- **GitHub**: https://github.com/stevenchn56/openclaw-polymarket-expert
 - **Portfolio**: https://stevenchn56.github.io (建设中)
 - **Upwork**: [你的Upwork个人主页链接]
 
